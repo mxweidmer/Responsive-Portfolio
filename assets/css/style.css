@@ -194,6 +194,28 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
+    .divMContent {
+        width: 750px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 40px;
+        border: 1px solid #dddddd;
+        background: white;
+    }
+
+    .divHeader {
+        width: 750px;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 0px;
+        overflow: auto;
+    }
+
+    #profilePic {
+        float: left;
+        width: 33.33%;
+        margin-right: 20px;
+    }
 
 }
 
