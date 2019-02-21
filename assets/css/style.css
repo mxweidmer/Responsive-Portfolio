@@ -166,8 +166,8 @@ footer {
     background: #666666;
     color: #777777;
     border-top: 10px solid #4aaaa5;
-    padding-top: 50px;
-    padding-bottom: 5px;
+    padding-top: 5%;
+    padding-bottom: 5%;
     font-size: 0.75em;
     position: fixed;
     bottom: 0;
