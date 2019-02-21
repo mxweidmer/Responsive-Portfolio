@@ -191,6 +191,22 @@ footer {
         margin-top: 0px;
         overflow: auto;
     }
+
+    .imgSize {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .imgDiv {
+        float: left;
+        width: 45%;
+        margin-bottom: 20px;
+        position: relative;
+    }
+
+    .imgRight {
+        margin-left: 10%;
+    }
 }
 
 @media screen and (max-width: 768px) {
