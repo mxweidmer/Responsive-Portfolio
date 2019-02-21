@@ -288,4 +288,15 @@ footer {
         position: static;
     }
 
+    .imgDiv {
+        float: left;
+        width: 100%;
+        margin-bottom: 20px;
+        position: relative;
+    }
+
+    .imgRight {
+        margin-left: 0;
+    }
+
 }
