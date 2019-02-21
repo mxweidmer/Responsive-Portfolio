@@ -101,6 +101,8 @@ li {
 
 #profilePic {
     float: left;
+    width: 25%;
+    margin-right: 20px;
 }
 
 .wFont {
@@ -138,13 +140,6 @@ p {
     color: #777777;
 }
 
-.pImg {
-    float: left;
-    width: 76%;
-    margin-left: 20px;
-    margin-bottom: 15px;
-}
-
 #button {
     background: #4aaaa5;
     border: 0;
@@ -177,4 +172,31 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+}
+
+@media screen and (max-width: 980px) {
+    .divMContent {
+        width: 640px;
+        margin-left: 4%;
+        margin-right: auto;
+        margin-top: 40px;
+        border: 1px solid #dddddd;
+        background: white;
+    }
+
+    .divHeader {
+        width: 880px;
+        margin-right: auto;
+        margin-left: 4%;
+        margin-top: 0px;
+        overflow: auto;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 640px) {
+
 }
