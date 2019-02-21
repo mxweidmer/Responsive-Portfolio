@@ -17,7 +17,7 @@
 
 ### At 768 pixels, the header again stays the same, but the main content is centered in the center of the page. Also, the profile picture is made slightly bigger.
 
-![768px Example](https://github.com/mxweidmer/Responsive-Portfolio/blob/master/assets/images/768px.JPG)
+![768px Example](https://github.com/mxweidmer/Responsive-Portfolio/blob/master/assets/images/768.JPG)
 
 ### Finally, at 640 pixels, the header and navbar are stretched to the width of the screen and stacked on top of each other.  Within the main content part of the page, the content now takes up 100% the width of it's container, and all elements are stacked on top of each other.
 
