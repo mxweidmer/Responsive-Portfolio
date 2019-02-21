@@ -195,7 +195,7 @@ footer {
 
 @media screen and (max-width: 768px) {
     .divMContent {
-        width: 750px;
+        width: 90%;
         margin-left: auto;
         margin-right: auto;
         margin-top: 40px;
@@ -204,7 +204,7 @@ footer {
     }
 
     .divHeader {
-        width: 750px;
+        width: 90%;
         margin-right: auto;
         margin-left: auto;
         margin-top: 0px;
@@ -220,5 +220,56 @@ footer {
 }
 
 @media screen and (max-width: 640px) {
+    .divMContent {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 40px;
+        margin-bottom: 40%;
+        border: 1px solid #dddddd;
+        background: white;
+    }
+
+    .divHeader {
+        width: 100%;
+        margin-top: 0px;
+        overflow: auto;
+    }
+
+    #profilePic {
+        float: left;
+        width: 100%;
+        margin-right: 20px;
+    }
+
+    .divName {
+        background: #4aaaa5;
+        color: #ffffff;
+        height: 100%;
+        margin-top: 0%;
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .headName {
+        margin-right: auto;
+        margin-left: auto;
+        text-align: center;
+    }
+
+    .divPList {
+        color: #777777;
+        width: 100%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        margin-right: auto;
+        margin-left: auto;
+        text-align: center;
+    }
+
+    header {
+        position: static;
+    }
 
 }
